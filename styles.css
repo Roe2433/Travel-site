@@ -1,0 +1,87 @@
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(84, 197, 240, 1); }
+.My-Color-Theme-2-rgba { color: rgba(52, 156, 247, 1); }
+.My-Color-Theme-3-rgba { color: rgba(58, 116, 224, 1); }
+.My-Color-Theme-4-rgba { color: rgba(52, 85, 247, 1); }
+.My-Color-Theme-5-rgba { color: rgba(155, 153, 240, 1); }
+
+*{
+    overflow: auto;
+}
+body{
+    font-family: 'Jockey One', sans-serif;
+    background: rgba(155, 153, 240, 1);
+    color: rgba(52, 85, 247, 1);
+    box-sizing: border-box;
+}
+.container{
+    background:rgba(84, 197, 240, 1);
+    width: 90%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+h1{
+   font-family: 'Paytone One', sans-serif;
+   color: rgba(52, 85, 247, 1);
+}
+h2{
+    font-family: 'El Messiri', sans-serif;
+    color: rgba(52, 85, 247, 1);
+    font-size: extra large;
+  
+}
+nav{
+    text-align: center;
+    line-height: 100px;
+}
+nav a, .button{
+    background:rgba(52, 156, 247, 1);
+    color:  rgba(58, 116, 224, 1);
+    border: 5px solid rgba(52, 85, 247, 1);
+    padding: 20px 30px;
+    margin-left: 40px;    
+    text-decoration: none;
+    border-radius: 15px;
+}
+nav a:hover, .button:hover{
+  color: rgba(84, 197, 240, 1);
+  background:rgba(155, 153, 240, 1);
+}
+nav a:visited, .button:visited{
+    background:rgba(155, 153, 240, 1);
+    border:rgba(52, 85, 247, 1);
+}
+img{
+    padding: 10px;
+    background:rgba(155, 153, 240, 1);
+    }
+#Iloilomap{
+        width: 1%;
+        float: left;
+    }
+#IloiloCity{
+    width: 85%;
+    float: left;
+}
+aside{
+    clear: both;
+    float: right;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 1;
+    padding: 15px;
+    overflow: auto;
+    border: 3px solid rgba(155, 153, 240, 1);
+    margin-left: 15px;
+}
+header, footer{
+    clear: both;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+}
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
